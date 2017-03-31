@@ -13,7 +13,7 @@
     "http-server": "^0.9.0"
   },
   "scripts": {
-    "prepare": "cd revealjs && npm install",
+    "prepare": "cd reveal.js && npm install",
     "start": "./node_modules/.bin/hs -p 9001"
   }
 }
