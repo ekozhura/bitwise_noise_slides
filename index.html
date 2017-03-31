@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Fun with Bitwise Noise</title>
+
+		<link rel="stylesheet" href="revealjs/css/reveal.css">
+		<link rel="stylesheet" href="revealjs/css/theme/sky.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+
+
+
+    <style>
+	.flat-button {
+		position: relative;
+		vertical-align: top;
+		width: 100%;
+		height: 60px;
+		padding: 0;
+		font-size: 22px;
+		color:white;
+		text-align: center;
+		text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+		background: #454545;
+		border: 0;
+		border-bottom: 2px solid #2f2e2e;
+		cursor: pointer;
+		-webkit-box-shadow: inset 0 -2px #2f2e2e;
+		box-shadow: inset 0 -2px #2f2e2e;
+	}
+    </style>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'revealjs/css/print/pdf.css' : 'revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <section data-markdown="md_slides/slide0.md"  ></section>
+                <section data-markdown="md_slides/slide1.md"  ></section>
+                <section data-markdown="md_slides/slide2.md"  ></section>
+                <section data-markdown="md_slides/slide3.md"  ></section>
+                <section data-markdown="md_slides/slide4.md"  ></section>
+                <section data-markdown="md_slides/slide5.md"  ></section>
+                <section data-markdown="md_slides/slide6.md"  ></section>
+                <section data-markdown="md_slides/slide7.md"  ></section>
+                <section data-markdown="md_slides/slide8.md"  ></section>
+                <section data-markdown="md_slides/slide9.md"  ></section>
+                <section data-markdown="md_slides/slide10.md"  ></section>
+                <section>
+					<h3>Audio Example #2</h3>
+					<button class="flat-button" id="playBtn1">MAKE SOME NOISE</button>
+				</section>
+				<section data-markdown="md_slides/slide11.md"  ></section>
+                <section data-markdown="md_slides/slide12.md"  ></section>
+                <section data-markdown="md_slides/slide13.md"  ></section>
+                <section data-markdown="md_slides/slide14.md"  ></section>
+				<section>
+					<h3>Audio Example #3</h3>
+					<button class="flat-button" id="playBtn2">MAKE SOME NOISE</button>
+				</section>
+				<section>
+					<h3>Thank you</h3>
+					<img src="files/skeletor.gif"/>
+				</section>
+				<section data-markdown="md_slides/slide15.md"  ></section>
+			</div>
+		</div>
+
+		<script src="revealjs/lib/js/head.min.js"></script>
+		<script src="revealjs/js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				history: true,
+				dependencies: [
+					{ src: 'revealjs/plugin/markdown/marked.js' },
+					{ src: 'revealjs/plugin/markdown/markdown.js' },
+					{ src: 'revealjs/plugin/notes/notes.js', async: true },
+					{ src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+
+		<script src="jsdemos/audioBufferDemo.js"></script>
+		<script src="jsdemos/audioBufferStream.js"></script>
+	</body>
+</html>
