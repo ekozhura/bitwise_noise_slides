@@ -1,6 +1,6 @@
 ### Further experiments
 
-`ScriptNodeProcessor`
+`ScriptProcessorNode`
 
 ```js
 const BUFFER_SIZE = 4096;
