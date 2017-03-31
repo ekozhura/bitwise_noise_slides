@@ -14,6 +14,6 @@
   },
   "scripts": {
     "prepare": "cd reveal.js && npm install",
-    "start": "./node_modules/.bin/hs -p 9001"
+    "start": "./node_modules/.bin/http-server -p 9001"
   }
 }
